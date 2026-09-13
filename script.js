@@ -3,8 +3,8 @@
    Change the values below; you don't need to touch the HTML/CSS.
 ===================================================================== */
 const CONFIG = {
-  name: "Your Name",
-  initials: "YN", // shown top-left
+  name: "Kaustubh Bharti",
+  initials: "KB", // shown top-left
   location: "Nagpur, India",
   roles: [
     "Building projects",
@@ -19,7 +19,7 @@ const CONFIG = {
   facts: {
     focus: "DSA, Web Development, AI tooling",
     currently: "Year 1 of B.Tech CSE",
-    tools: "Git, VS Code, Linux basics"
+    tools: "Git, VS Code, Linux basics, Vibe Coding"
   },
 
   // Group skills however makes sense to you — add or remove rows freely.
@@ -34,41 +34,41 @@ const CONFIG = {
   // entries and replace with your own — even a coursework project counts.
   projects: [
     {
-      title: "Sample Project — Replace Me",
+      title: "First Project -Nixon Website",
       year: "2026",
       description: "One or two sentences on what this project does and why you built it.",
       stack: "e.g. Python, Flask, SQLite",
       role: "Solo project",
-      link: "https://github.com/yourusername/repo-name"
+      link: "https://github.com/Kaustubh-2009/nixon-website"
     },
     {
-      title: "Second Project — Replace Me",
+      title: "Second Project — E-Commerce Website",
       year: "2026",
       description: "What problem it solves, and one detail a recruiter would find interesting.",
       stack: "e.g. HTML, CSS, JavaScript",
       role: "Solo project",
-      link: "https://github.com/yourusername/repo-name"
+      link: "https://github.com/Kaustubh-2009/E-Commerce-Website"
     }
   ],
 
   education: [
     {
-      period: "2025 — Present",
+      period: "2026 — Present",
       title: "B.Tech, Computer Science Engineering — Ramdeobaba University",
       detail: "First year. Coursework: programming fundamentals, mathematics, data structures."
     },
     {
       period: "Earlier",
       title: "Higher Secondary (12th) — Science",
-      detail: "Add your school name and stream here."
+      detail: "Taywade Junior College-PCM"
     }
   ],
 
   // Add/remove any link. `label` is what's shown on the button.
   links: [
-    { label: "GitHub", url: "https://github.com/yourusername" },
-    { label: "LinkedIn", url: "https://linkedin.com/in/yourusername" },
-    { label: "Email", url: "mailto:you@example.com" },
+    { label: "GitHub", url: "https://github.com/Kaustubh-2009" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/kaustubh-bharti/" },
+    { label: "Email", url: "Kaustubhbharti2009@gmail.com" },
     { label: "Resume", url: "resume.pdf" }
   ]
 };
