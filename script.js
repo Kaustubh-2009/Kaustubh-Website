@@ -24,9 +24,9 @@ const CONFIG = {
 
   // Group skills however makes sense to you — add or remove rows freely.
   skills: [
-    { category: "Languages", items: "C, C++, Python, Java (learning)" },
+    { category: "Languages", items: "C, C++, Python, Java (learning), Vibe Coding" },
     { category: "Web", items: "HTML, CSS, JavaScript (basics)" },
-    { category: "Tools", items: "Git & GitHub, VS Code, Linux command line" },
+    { category: "Tools", items: "Git & GitHub, VS Code, Linux command line, Cursor AI, Lovable, Replit, AntiGravity,etc." },
     { category: "Currently learning", items: "Data Structures & Algorithms" }
   ],
 
