@@ -68,8 +68,8 @@ const CONFIG = {
   links: [
     { label: "GitHub", url: "https://github.com/Kaustubh-2009" },
     { label: "LinkedIn", url: "https://www.linkedin.com/in/kaustubh-bharti/" },
-    { label: "Email", url: "Kaustubhbharti2009@gmail.com" },
-    { label: "Resume", url: "resume.pdf" }
+    { label: "Linktr", url: "https://linktr.ee/Kaustubh_2009" },
+    { label: "Resume", url: "Kaustubh_Bharti_Resume_Cse.pdf" }
   ]
 };
 
