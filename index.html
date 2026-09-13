@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — CSE Student</title>
+<meta name="description" content="Personal portfolio — projects, skills, and background.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#" class="mark" data-mark>YN</a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="coord">§ 01 — INTRODUCTION</p>
+      <h1 class="hero-name" data-name>YOUR NAME</h1>
+      <p class="hero-role">
+        <span class="role-static">Computer Science Engineering student</span> —
+        <span class="typed" data-typed></span><span class="cursor">_</span>
+      </p>
+      <p class="hero-desc" data-desc>
+        First-year CSE undergrad at Ramdeobaba University, building toward internships
+        and strong placement outcomes through consistent project work and fundamentals.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View projects</a>
+        <a href="#contact" class="btn btn-outline">Get in touch</a>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-item"><span class="meta-label">Location</span><span class="meta-value" data-location>Nagpur, India</span></div>
+        <div class="meta-item"><span class="meta-label">Institution</span><span class="meta-value">RBU — CSE</span></div>
+        <div class="meta-item"><span class="meta-label">Status</span><span class="meta-value">Open to internships</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <p class="coord">§ 02 — ABOUT</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>About</h2>
+        <p data-about-1>
+          I'm a first-year Computer Science Engineering student focused on building a strong
+          foundation in data structures, algorithms, and software development — with the goal
+          of landing an internship from second year onward and a strong final placement.
+        </p>
+        <p data-about-2>
+          Outside coursework, I like turning small ideas into working projects, and documenting
+          what I build so it's easy for others — including recruiters — to follow.
+        </p>
+      </div>
+      <dl class="about-facts">
+        <div><dt>Focus</dt><dd data-focus>DSA, Web Development, AI tooling</dd></div>
+        <div><dt>Currently</dt><dd data-currently>Year 1 of B.Tech CSE</dd></div>
+        <div><dt>Aiming for</dt><dd>Internship (2nd year) → strong final placement</dd></div>
+        <div><dt>Tools</dt><dd data-tools>Git, VS Code, Linux basics</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <p class="coord">§ 03 — SKILLS</p>
+    <h2>Skills</h2>
+    <div class="skills-matrix" data-skills-matrix>
+      <!-- populated by script.js from CONFIG.skills -->
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <p class="coord">§ 04 — PROJECTS</p>
+    <h2>Projects</h2>
+    <div class="project-list" data-project-list>
+      <!-- populated by script.js from CONFIG.projects -->
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <p class="coord">§ 05 — EDUCATION</p>
+    <h2>Education</h2>
+    <div class="timeline" data-timeline>
+      <!-- populated by script.js from CONFIG.education -->
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="coord">§ 06 — CONTACT</p>
+    <h2>Get in touch</h2>
+    <p class="contact-lede" data-contact-lede>
+      Open to internship opportunities, collaborations, and anything worth building. Reach me here:
+    </p>
+    <div class="contact-links" data-contact-links>
+      <!-- populated by script.js from CONFIG.links -->
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span data-footer-name>Your Name</span>
+  <span class="footer-sep">·</span>
+  <span data-footer-year></span>
+  <span class="footer-sep">·</span>
+  <span>Built &amp; deployed from GitHub</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
