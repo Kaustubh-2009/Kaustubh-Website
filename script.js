@@ -26,7 +26,7 @@ const CONFIG = {
   skills: [
     { category: "Languages", items: "C, C++, Python, Java (learning), Vibe Coding" },
     { category: "Web", items: "HTML, CSS, JavaScript (basics)" },
-    { category: "Tools", items: "Git & GitHub, VS Code, Linux command line, Cursor AI, Lovable, Replit, AntiGravity,etc." },
+    { category: "Tools", items: "Git & GitHub, VS Code, Linux command line, Cursor AI, Lovable, Replit, AntiGravity, Base44, Stich" },
     { category: "Currently learning", items: "Data Structures & Algorithms" }
   ],
 
